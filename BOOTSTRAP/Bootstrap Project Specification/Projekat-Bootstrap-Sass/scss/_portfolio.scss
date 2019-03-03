@@ -1,0 +1,36 @@
+/*********** Second Section ************/
+h3 {
+    text-align: center;
+    font-family: "Lato-Black",sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 250%;
+    margin: 0 auto;
+}
+.portfolio {
+    text-align: center;
+    h3 {
+        padding-top: 50px;
+    }
+    img {
+        width: 80%;
+        padding: 0;
+        margin-bottom: 5%;
+        @media (min-width:576px) {
+            width: 80%;
+            padding: 0;   
+        }
+        @media (min-width:768px) {
+            width: 80%;    
+        }
+        @media (min-width:992px) {
+            width: 100%;  
+        }
+        @media (min-width:1200px) {
+            width: 100%;    
+        }
+    }
+}
+.portfolio:last-child {
+    margin-bottom: 10%;
+}

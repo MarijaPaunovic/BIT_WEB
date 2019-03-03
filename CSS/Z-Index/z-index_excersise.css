@@ -1,0 +1,50 @@
+.box {
+    width: 200px;
+    height: 200px;
+}
+.red {
+    background-color: red;
+}
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.relative {
+    position: relative;
+}
+.relative > .box:nth-child(2) {
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+.relative > .box:nth-child(3) {
+    position: relative;
+    left: 200px;
+    bottom: 200px;
+}
+.absolute {
+    position: relative;
+}
+.absolute > .box {
+    position: absolute;
+}
+.absolute > .box:nth-child(1) {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 3;
+}
+.absolute > .box:nth-child(2) {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    z-index: 2;
+}
+.absolute > .box:nth-child(3) {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    z-index: 1;
+}

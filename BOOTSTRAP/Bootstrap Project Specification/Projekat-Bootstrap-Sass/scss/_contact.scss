@@ -1,0 +1,44 @@
+/************ Fourth Section - Contact Me ************/
+.contact{
+    margin-bottom: 10%;
+    text-align: center;
+}
+form {
+    margin-top: 5%;
+    input, textarea {
+    font-family:"Lato-Bold",sans-serif;
+    font-weight:bold; 
+    color: gray;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 3%; 
+    @media (min-width:768px) {
+        width: 65%;
+    }
+    @media (min-width:992px) {
+        width: 50%;
+    }
+    }
+}
+.btn-success {
+    float: inline-start;
+    margin-left: -65%;
+    @media (min-width:576px) {
+        margin-left: -70%;
+    }
+    @media (min-width:768px) {
+        margin-left: -57%;
+    }
+    @media (min-width:992px) {
+        margin-left: -43%;
+    }
+    @media (min-width:1200px) {
+        margin-left: -45%;
+    }
+    color: #fff;
+    background-color: $color-greenish;
+    border: none;
+    font-family: "Lato-Black",sans-serif;
+    font-weight: bold;
+}

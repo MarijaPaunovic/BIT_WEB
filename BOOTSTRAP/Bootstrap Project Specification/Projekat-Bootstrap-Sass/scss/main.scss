@@ -1,0 +1,200 @@
+/********** GENERAL LAYOUT ********/
+@import 'variables';
+@import 'mixins';
+@import 'global';
+@import 'masthead';
+@import 'portfolio';
+@import 'contact';
+
+
+/************* Navigation ***************/
+header {
+    background-color: $color-blueish;
+    font-family: 'Lato-Black', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 1%;  
+}
+.navbar-brand {
+    font-family: 'Lato-Black', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 110%;
+}
+a .nav-link{
+    font-family: 'Lato-Black', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.navbar-light .navbar-brand {
+    color: white;
+    @media (min-width:992px) {
+        padding-left: 20%;
+      }
+      @media (min-width:1200px) {
+        padding-left: 20%;
+      }
+}
+.navbar-light .navbar-toggler {
+    font-weight: bold;
+    color: white;
+      @media (min-width:768px) {
+          border-color: white;
+        }
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+    @media (min-width:992px) {
+        padding-left: 250px;
+      }
+      @media (min-width:1200px) {
+        padding-left: 500px;
+      }
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color:  $color-greenish;
+      @media (min-width:768px) {
+          background-color:  $color-blueish;
+        }
+}
+.navbar-expand-lg {
+
+}
+
+/*********** First Section ************/
+.first-section {
+    color: white;
+    background-color:$color-greenish;
+    padding: 5%;
+    font-family:"Lato-Black",sans-serif;
+    font-weight:bolder;
+    text-align: center;
+        img {
+            padding:5% 0;
+        }
+        h2 {
+        font-family:"Lato-Black",sans-serif;
+        font-weight:bolder;
+        text-transform: uppercase;
+        margin-top:4%;
+        @media (min-width:576px) {
+            font-size: 2rem;
+        }
+        @media (min-width:768px) {
+            font-size: 4rem;
+        }
+    }
+}
+.line-star {
+    font-family:"Lato-Black",sans-serif;
+    text-transform: uppercase;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+.star {
+    font-size: 130%;
+    text-align: center;
+    margin-top: -25px;
+    margin-bottom: 3%;
+}
+.green-color {
+    color: $color-greenish;
+}
+.white-color {
+    color: white;
+}
+
+
+/************ Third Section ************/
+.about-section {
+    background-color:$color-greenish;
+    color: white;
+    margin-bottom: 15%; 
+}
+.about {
+    h3 {
+        font-family:"Lato-Black",sans-serif;
+        font-weight:bolder; 
+        padding: 0;
+        padding-top: 10%;
+    }
+    p {
+        font-family:"Lato-Regular",sans-serif;
+        margin-top: 3%;
+        text-align: left;
+        line-height: 180%;
+    }
+}
+.about:last-child {
+    text-align: center;
+    padding-bottom: 10%; 
+}
+.btn-outline-light {
+    font-family:"Lato-Black",sans-serif;
+    font-weight:bold;  
+    font-stretch: 5px;
+    color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+
+
+/************** Footer *****************/
+footer {
+    color: white;
+    background-color:$color-blueish;
+    padding: 8%;
+    text-align: center;
+    p {
+        text-align: center;
+        font-family: "Lato-Black",sans-serif;
+        font-weight: bolder;
+        font-size: 1rem;
+    }
+}
+h4 {
+    text-align: center;
+    font-family: "Lato-Black",sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 150%;
+    padding-top: 10%;
+    padding-bottom: 5%; 
+    margin: 0 auto;
+}
+.soc-icons {
+    list-style-type: none;
+    display: inline;
+    img {
+    width: 10%;
+    }
+}
+small {
+    margin-top: 20%;
+    font-family: "Lato-Regular",sans-serif;
+    font-size: 80%;
+    line-height: 20%;
+    text-align: center;
+}
+.grey-color {
+    font-size: 80%;
+    color: grey;
+}
+
+
+/************* HELPER ***************/
+// .clearfix::before,
+// .clearfix::after {
+//     content: ' ';
+//     display: table;
+// }
+// .clearfix::after {
+//     clear: both;
+// }

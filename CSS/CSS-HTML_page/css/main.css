@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+/********** General styles **********/
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+ul li {
+    list-style-type: none;
+}
+footer {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+/*************** LAYOUT *************/
+.main-container {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: #fff;
+}
+.navigation {
+    width: 100%;
+    background-color: brown;
+    color: #fff;
+    margin: 0;
+}
+.ul-header {
+    margin: 0;
+    float: right;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+.li-header {
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+.li-header a {
+    color: #fff;
+    text-decoration: none;
+}
+.li-header a:hover {
+    color:orange;
+    margin: 2px;
+}
+section > img {
+    width: 100%;
+}
+.blue-bc {
+    display: block;
+    width: 100%;
+    background-color: rgb(7, 7, 61);
+    color: #fff;
+}
+/*********** Specific styles ********/
+.y-bc {
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    float: left;
+}
+.first-row {
+    float: left;
+    padding: 0;
+}
+.li-width {
+    width: 32.3%;
+    margin-right: 5px;
+    float: left;
+}
+.border-grey {
+    border-bottom: 1px dotted grey;
+    padding: 5px;
+    margin-bottom: 10px; 
+    margin-right: 0; 
+}
+.footer-container {
+    width: 960px;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.border-grey a {
+    color: black;
+    text-decoration: none;
+}
+small a {
+    color: white;
+    text-decoration: none;
+}
+/************ Helper styles *********/
+.clearfix::before,
+.clearfix::after {
+    content: " ";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+

@@ -1,0 +1,284 @@
+/********** GENERAL LAYOUT ********/
+@font-face {
+  font-family: "Lato-Black", sans-serif;
+  src: url("fonts/Lato-Black.ttf"); }
+@font-face {
+  font-family: "Lato-BlackItalic", sans-serif;
+  src: url("fonts/Lato-BlackItalic.ttf"); }
+@font-face {
+  font-family: "Lato-Bold", sans-serif;
+  src: url("fonts/Lato-Bold.ttf"); }
+@font-face {
+  font-family: "Lato-BoldItalic", sans-serif;
+  src: url("fonts/Lato-BoldItalic.ttf"); }
+@font-face {
+  font-family: "Lato-Hairline", sans-serif;
+  src: url("fonts/Lato-Hairline.ttf"); }
+@font-face {
+  font-family: "Lato-HairlineItalic", sans-serif;
+  src: url("fonts/Lato-HairlineItalic.ttf"); }
+@font-face {
+  font-family: "Lato-Italic", sans-serif;
+  src: url("fonts/Lato-Italic.ttf"); }
+@font-face {
+  font-family: "Lato-Light", sans-serif;
+  src: url("fonts/Lato-Light.ttf"); }
+@font-face {
+  font-family: "Lato-LightItalic", sans-serif;
+  src: url("fonts/Lato-LightItalic.ttf"); }
+@font-face {
+  font-family: "Lato-Regular", sans-serif;
+  src: url("fonts/Lato-Regular.ttf"); }
+body {
+  margin: 0;
+  padding: 0; }
+
+main {
+  font-family: 'Lato-Black', sans-serif;
+  font-weight: bolder; }
+
+/*********** Second Section ************/
+h3 {
+  text-align: center;
+  font-family: "Lato-Black",sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 250%;
+  margin: 0 auto; }
+
+.portfolio {
+  text-align: center; }
+  .portfolio h3 {
+    padding-top: 50px; }
+  .portfolio img {
+    width: 80%;
+    padding: 0;
+    margin-bottom: 5%; }
+    @media (min-width: 576px) {
+      .portfolio img {
+        width: 80%;
+        padding: 0; } }
+    @media (min-width: 768px) {
+      .portfolio img {
+        width: 80%; } }
+    @media (min-width: 992px) {
+      .portfolio img {
+        width: 100%; } }
+    @media (min-width: 1200px) {
+      .portfolio img {
+        width: 100%; } }
+
+.portfolio:last-child {
+  margin-bottom: 10%; }
+
+/************ Fourth Section - Contact Me ************/
+.contact {
+  margin-bottom: 10%;
+  text-align: center; }
+
+form {
+  margin-top: 5%; }
+  form input, form textarea {
+    font-family: "Lato-Bold",sans-serif;
+    font-weight: bold;
+    color: gray;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 3%; }
+    @media (min-width: 768px) {
+      form input, form textarea {
+        width: 65%; } }
+    @media (min-width: 992px) {
+      form input, form textarea {
+        width: 50%; } }
+
+.btn-success {
+  float: inline-start;
+  margin-left: -65%;
+  color: #fff;
+  background-color: #18bc9c;
+  border: none;
+  font-family: "Lato-Black",sans-serif;
+  font-weight: bold; }
+  @media (min-width: 576px) {
+    .btn-success {
+      margin-left: -70%; } }
+  @media (min-width: 768px) {
+    .btn-success {
+      margin-left: -57%; } }
+  @media (min-width: 992px) {
+    .btn-success {
+      margin-left: -43%; } }
+  @media (min-width: 1200px) {
+    .btn-success {
+      margin-left: -45%; } }
+
+/************* Navigation ***************/
+header {
+  background-color: #2c3e50;
+  font-family: 'Lato-Black', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding: 1%; }
+
+.navbar-brand {
+  font-family: 'Lato-Black', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 110%; }
+
+a .nav-link {
+  font-family: 'Lato-Black', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 1rem; }
+
+.navbar-light .navbar-brand {
+  color: white; }
+  @media (min-width: 992px) {
+    .navbar-light .navbar-brand {
+      padding-left: 20%; } }
+  @media (min-width: 1200px) {
+    .navbar-light .navbar-brand {
+      padding-left: 20%; } }
+
+.navbar-light .navbar-toggler {
+  font-weight: bold;
+  color: white; }
+  @media (min-width: 768px) {
+    .navbar-light .navbar-toggler {
+      border-color: white; } }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: white; }
+  @media (min-width: 992px) {
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+      padding-left: 250px; } }
+  @media (min-width: 1200px) {
+    .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+      padding-left: 500px; } }
+
+.navbar-light .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: #18bc9c; }
+  @media (min-width: 768px) {
+    .navbar-toggler {
+      background-color: #2c3e50; } }
+
+/*********** First Section ************/
+.first-section {
+  color: white;
+  background-color: #18bc9c;
+  padding: 5%;
+  font-family: "Lato-Black",sans-serif;
+  font-weight: bolder;
+  text-align: center; }
+  .first-section img {
+    padding: 5% 0; }
+  .first-section h2 {
+    font-family: "Lato-Black",sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin-top: 4%; }
+    @media (min-width: 576px) {
+      .first-section h2 {
+        font-size: 2rem; } }
+    @media (min-width: 768px) {
+      .first-section h2 {
+        font-size: 4rem; } }
+
+.line-star {
+  font-family: "Lato-Black",sans-serif;
+  text-transform: uppercase;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center; }
+
+.star {
+  font-size: 130%;
+  text-align: center;
+  margin-top: -25px;
+  margin-bottom: 3%; }
+
+.green-color {
+  color: #18bc9c; }
+
+.white-color {
+  color: white; }
+
+/************ Third Section ************/
+.about-section {
+  background-color: #18bc9c;
+  color: white;
+  margin-bottom: 15%; }
+
+.about h3 {
+  font-family: "Lato-Black",sans-serif;
+  font-weight: bolder;
+  padding: 0;
+  padding-top: 10%; }
+.about p {
+  font-family: "Lato-Regular",sans-serif;
+  margin-top: 3%;
+  text-align: left;
+  line-height: 180%; }
+
+.about:last-child {
+  text-align: center;
+  padding-bottom: 10%; }
+
+.btn-outline-light {
+  font-family: "Lato-Black",sans-serif;
+  font-weight: bold;
+  font-stretch: 5px;
+  color: #f8f9fa;
+  border-color: #f8f9fa; }
+
+/************** Footer *****************/
+footer {
+  color: white;
+  background-color: #2c3e50;
+  padding: 8%;
+  text-align: center; }
+  footer p {
+    text-align: center;
+    font-family: "Lato-Black",sans-serif;
+    font-weight: bolder;
+    font-size: 1rem; }
+
+h4 {
+  text-align: center;
+  font-family: "Lato-Black",sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 150%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  margin: 0 auto; }
+
+.soc-icons {
+  list-style-type: none;
+  display: inline; }
+  .soc-icons img {
+    width: 10%; }
+
+small {
+  margin-top: 20%;
+  font-family: "Lato-Regular",sans-serif;
+  font-size: 80%;
+  line-height: 20%;
+  text-align: center; }
+
+.grey-color {
+  font-size: 80%;
+  color: grey; }
+
+/************* HELPER ***************/
+
+/*# sourceMappingURL=main.css.map */
