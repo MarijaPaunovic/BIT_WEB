@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 900px;
+        height: 500px;
+        background-color: rgb(236, 229, 229);
+        margin: 0 auto;
+        padding-top: 2%;
+    }
+    .input-container {
+        width: 800px;
+        height: 400px;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-left: 10px;
+        background-color: white;
+    }
+    .inputForm {
+        width: 800px;
+        margin: 0 auto;
+    }
+    .text-msg {
+        width: 735px;
+    }
