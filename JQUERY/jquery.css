@@ -1,0 +1,12 @@
+.border-red {
+   border-bottom: 1px solid red;
+}
+.textUpper {
+    text-transform: uppercase;
+}
+.fontColor{
+    color: green;
+}
+.middle{
+    background-color: pink;
+}
