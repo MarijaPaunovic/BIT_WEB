@@ -10,3 +10,12 @@
 .middle{
     background-color: pink;
 }
+.green-border {
+    border: 1px solid green;
+}
+.picture-width {
+    width: 33%;
+}
+.selected {
+    border: 1px solid red;
+}
