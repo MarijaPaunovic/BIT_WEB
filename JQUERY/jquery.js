@@ -47,9 +47,10 @@ $(function () {
     function redBorder() {
         $('img.selected').removeClass('selected');
 
+        $('.imageGallery2').children('img:nth-child(2)').addClass('selected');
+
     }
     redBorder();
-
 
     $('div').before('<p>Amazing Gallery</p>');
 });
